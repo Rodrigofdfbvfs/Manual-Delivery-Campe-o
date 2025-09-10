@@ -17,8 +17,8 @@ export default function Offer() {
           <span className="text-primary">Oferta especial</span> por tempo limitado
         </h2>
 
-        <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-            <Card className="lg:col-start-2 border-2 border-primary shadow-2xl shadow-primary/20 relative bg-primary text-primary-foreground">
+        <div className="mt-12 max-w-lg mx-auto grid grid-cols-1 gap-8 items-start">
+            <Card className="border-2 border-primary shadow-2xl shadow-primary/20 relative bg-primary text-primary-foreground">
               <div className="absolute top-4 right-4">
                 <div className="bg-primary-foreground text-primary font-bold font-headline py-1 px-4 rounded-full uppercase text-xs">
                   Mais Popular
@@ -36,6 +36,29 @@ export default function Offer() {
                     {includedFeatures.map((feature) => (
                       <li key={feature} className="flex items-center gap-3">
                         <Check className="h-5 w-5 flex-shrink-0 text-primary-foreground" aria-hidden="true" />
+                        {feature}
+                      </li>
+                    ))}
+                </ul>
+                <Button size="lg" className="w-full bg-primary-foreground hover:bg-primary-foreground/90 text-primary font-bold">
+                    QUERO MINHA VAGA
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-card text-card-foreground border border-border">
+              <CardHeader className="pt-10">
+                <p className="text-base font-bold uppercase tracking-wide text-foreground/90">À Vista</p>
+                <div className="flex items-baseline justify-center gap-x-2">
+                  <span className="text-4xl font-bold tracking-tight font-headline text-primary">R$197,00</span>
+                </div>
+                <CardDescription>pagamento único</CardDescription>
+              </CardHeader>
+              <CardContent className="flex flex-col gap-6">
+                <ul role="list" className="space-y-3 text-left font-light font-headline text-primary">
+                    {includedFeatures.map((feature) => (
+                      <li key={feature} className="flex items-center gap-3">
+                        <Check className="h-5 w-5 flex-shrink-0 text-foreground" aria-hidden="true" />
                         {feature}
                       </li>
                     ))}
