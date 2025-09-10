@@ -13,7 +13,7 @@ export default function Offer() {
   return (
     <section id="oferta" className="py-12 sm:py-24 bg-secondary">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl font-headline">
+        <h2 className="text-4xl uppercase font-bold tracking-tight text-primary sm:text-5xl font-headline">
           OFERTA ESPECIAL DE LANÇAMENTO
         </h2>
         <p className="mt-4 text-lg max-w-2xl mx-auto font-light leading-8 text-foreground/80 font-headline">
