@@ -41,7 +41,7 @@ export default function Offer() {
                     ))}
                 </ul>
                 <Button size="lg" className="w-full bg-black hover:bg-black/80 text-primary font-bold">
-                    QUERO MINHA VAGA
+                    QUERO GARANTIR MINHA VAGA
                 </Button>
               </CardContent>
             </Card>
