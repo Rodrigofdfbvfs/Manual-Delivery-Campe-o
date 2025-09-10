@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Check } from "lucide-react";
+import { Check, Lock, ShieldCheck, Zap } from "lucide-react";
 
 const includedFeatures = [
     'Aulas gravadas, do básico ao avançado',
@@ -68,6 +68,27 @@ export default function Offer() {
                 </Button>
               </CardContent>
             </Card>
+        </div>
+        
+        <div className="mt-12 max-w-lg mx-auto">
+            <div className="rounded-full border border-border/50 bg-background/50 py-4 px-6">
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-x-6 gap-y-2 text-xs sm:text-sm font-light text-foreground/80">
+                    <div className="flex items-center gap-2">
+                        <Lock className="h-4 w-4 text-primary" />
+                        <span>Compra 100% segura</span>
+                    </div>
+                    <div className="hidden sm:block h-4 w-px bg-border/50"></div>
+                    <div className="flex items-center gap-2">
+                        <ShieldCheck className="h-4 w-4 text-primary" />
+                        <span>7 dias de garantia</span>
+                    </div>
+                    <div className="hidden sm:block h-4 w-px bg-border/50"></div>
+                    <div className="flex items-center gap-2">
+                        <Zap className="h-4 w-4 text-primary" />
+                        <span>Acesso imediato</span>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
     </section>
