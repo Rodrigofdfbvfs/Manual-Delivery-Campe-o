@@ -11,8 +11,8 @@ const features = [
   {
     icon: <TrendingUp className="h-8 w-8 text-primary" />,
     title: 'Delivery em Crescimento',
-    subtitle: 'Escale suas vendas',
-    description: 'Domine estratégias validadas para escalar seus pedidos e aumentar seu faturamento de forma consistente.',
+    subtitle: 'multiplique suas vendas',
+    description: 'otimize seus anuncios atuais e implemente estrategias avançadas para alavancar ainda mais suas vendas',
   },
   {
     icon: <Briefcase className="h-8 w-8 text-primary" />,
