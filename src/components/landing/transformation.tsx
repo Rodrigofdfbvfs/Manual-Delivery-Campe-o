@@ -17,7 +17,7 @@ const features = [
   {
     icon: <Briefcase className="h-8 w-8 text-primary" />,
     title: 'Gestor de Tráfego',
-    subtitle: 'Profissionalize-se',
+    subtitle: 'domine um nicho lucrativo',
     description: 'Torne-se um especialista e gere uma nova fonte de renda prestando serviços para outros deliveries.',
   },
 ];
