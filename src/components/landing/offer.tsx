@@ -13,12 +13,9 @@ export default function Offer() {
   return (
     <section id="oferta" className="py-12 sm:py-24 bg-secondary">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-4xl uppercase font-bold tracking-tight text-primary sm:text-5xl font-headline">
-          OFERTA ESPECIAL DE LANÇAMENTO
+        <h2 className="text-4xl uppercase font-bold tracking-tight text-white sm:text-5xl font-headline">
+          <span className="text-primary">Oferta especial</span> por tempo limitado
         </h2>
-        <p className="mt-4 text-lg max-w-2xl mx-auto font-light leading-8 text-foreground/80 font-headline">
-          Tenha acesso a todo o conhecimento que vai transformar seu delivery por um preço que cabe no seu bolso.
-        </p>
 
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
             <Card className="lg:col-start-2 border-2 border-primary shadow-2xl shadow-primary/20 relative">
