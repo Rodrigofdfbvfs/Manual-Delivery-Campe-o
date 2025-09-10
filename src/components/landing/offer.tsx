@@ -29,7 +29,7 @@ export default function Offer() {
                 <div className="flex items-baseline justify-center gap-x-2">
                   <span className="text-2xl font-bold tracking-tight font-headline">12x de R$20,37</span>
                 </div>
-                <CardDescription className="text-primary-foreground/80">ou 244,44 total</CardDescription>
+                <CardDescription className="text-primary-foreground/80">ou R$ 244,44 total</CardDescription>
               </CardHeader>
               <CardContent className="flex flex-col gap-6">
                 <ul role="list" className="space-y-3 text-left font-light font-headline text-primary-foreground/90">
