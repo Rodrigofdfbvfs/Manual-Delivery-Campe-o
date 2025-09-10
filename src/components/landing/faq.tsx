@@ -17,6 +17,10 @@ const faqItems = [
   {
     question: "Como funciona a garantia?",
     answer: "Você tem 7 dias de garantia incondicional. Se por qualquer motivo achar que o curso não é para você, basta solicitar o reembolso e devolveremos 100% do seu dinheiro."
+  },
+  {
+    question: "Vou ter suporte durante o curso?",
+    answer: "Sim! Você terá 30 dias de suporte direto para tirar suas dúvidas sobre o conteúdo e implementação das estratégias."
   }
 ]
 
