@@ -40,7 +40,7 @@ export default function Offer() {
                       </li>
                     ))}
                 </ul>
-                <Button size="lg" className="w-full bg-black hover:bg-black/80 text-primary font-bold transition-transform transform hover:scale-105 animate-pulse-slow">
+                <Button size="lg" className="w-full bg-black hover:bg-black/80 text-primary font-bold transition-transform transform hover:scale-105">
                     QUERO GARANTIR MINHA VAGA
                 </Button>
               </CardContent>
@@ -63,7 +63,7 @@ export default function Offer() {
                       </li>
                     ))}
                 </ul>
-                <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold transition-transform transform hover:scale-105 animate-pulse-slow">
+                <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold transition-transform transform hover:scale-105">
                     QUERO COMPRAR A VISTA
                 </Button>
               </CardContent>
@@ -72,7 +72,7 @@ export default function Offer() {
         
         <div className="mt-12 max-w-lg mx-auto">
             <div className="rounded-full border border-border/50 bg-background/50 py-4 px-6">
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-x-6 gap-y-2 text-sm sm:text-base font-light text-foreground/80">
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-x-8 gap-y-4 text-base font-light text-foreground/80">
                     <div className="flex items-center gap-2">
                         <Lock className="h-4 w-4 text-primary" />
                         <span>Compra 100% segura</span>
