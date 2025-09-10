@@ -19,8 +19,8 @@ export default function Home() {
         <Transformation />
         <Guarantee />
         <About />
-        <Stats />
         <Quote />
+        <Stats />
         <Offer />
         <AdCopyGenerator />
         <Faq />
