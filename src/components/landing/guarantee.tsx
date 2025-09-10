@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Guarantee() {
   return (
-    <section id="guarantee" className="py-8 sm:py-12 bg-gradient-to-r from-primary to-accent">
+    <section id="guarantee" className="py-4 sm:py-8 bg-gradient-to-r from-primary to-accent">
       <div className="container mx-auto px-4">
         <div className="text-center">
             <ShieldCheck className="h-16 w-16 text-primary-foreground mx-auto mb-4" />
