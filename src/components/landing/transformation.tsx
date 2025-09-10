@@ -28,7 +28,7 @@ export default function Transformation() {
             A <span className="text-primary">transformação</span> que o seu delivery precisa
           </h2>
           <p className="mt-4 text-lg font-light text-foreground/80 font-headline">
-            O Manual do Delivery Campeão é para você que busca:
+            Não importa em que estágio você está, este curso foi pensado para levar você ao próximo nível.
           </p>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
