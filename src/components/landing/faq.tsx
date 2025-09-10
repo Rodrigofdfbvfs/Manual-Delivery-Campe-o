@@ -11,10 +11,6 @@ const faqItems = [
     answer: "O curso é composto por aulas gravadas que você pode assistir no seu ritmo. Ele aborda desde os conceitos básicos até estratégias avançadas de anúncios para delivery, incluindo templates práticos e métodos validados."
   },
   {
-    question: "Para quem é o Manual do Delivery Campeão?",
-    answer: "É para donos de delivery que estão começando e querem iniciar com demanda, para quem já tem um delivery e deseja alavancar as vendas, e também para pessoas que desejam trabalhar com tráfego pago para deliveries."
-  },
-  {
     question: "Como terei acesso ao curso?",
     answer: "O acesso é imediato após a confirmação do pagamento. Você receberá um e-mail com todas as instruções para acessar a plataforma com as aulas gravadas."
   },
