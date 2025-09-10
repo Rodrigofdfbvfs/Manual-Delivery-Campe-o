@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <Button size="lg" asChild className="bg-gradient-to-r from-primary to-accent text-lg px-10 py-8 font-bold text-primary-foreground hover:brightness-110 transition-all transform hover:scale-105">
             <Link href="#oferta">
-              QUERO VENDER MAIS AGORA
+              COMEÇAR AGORA
             </Link>
           </Button>
         </div>
