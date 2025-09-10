@@ -22,10 +22,7 @@ export default function About() {
                 />
             </div>
             <p className="mt-6 text-lg font-light leading-8 text-foreground/80 font-headline max-w-3xl mx-auto">
-              Com mais de 4 anos de experiência no campo de batalha do tráfego pago, hoje lidero uma agência que já foi o motor de crescimento para mais de 100 clientes no ramo de delivery.
-            </p>
-            <p className="mt-4 text-lg font-light leading-8 text-foreground/80 font-headline max-w-3xl mx-auto">
-              Já gerenciei mais de R$500.000 em anúncios, transformando investimentos em lucro e negócios locais em marcas de sucesso. Agora, condensei todo esse conhecimento prático no Manual do Delivery Campeão para que você também possa trilhar esse caminho.
+              Com mais de 4 anos de experiência no tráfego pago, lidero uma agência que impulsionou o crescimento de mais de 100 clientes no ramo de delivery. Já gerenciei mais de R$500.000 em anúncios, transformando investimentos em lucro e negócios locais em marcas de sucesso. Todo esse conhecimento prático está agora condensado no Manual do Delivery Campeão, para que você também possa criar estratégias de anúncios comprovadas e alavancar seu delivery.
             </p>
         </div>
       </div>
