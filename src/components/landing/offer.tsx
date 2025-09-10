@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 
 const includedFeatures = [
     'Aulas gravadas, do básico ao avançado',
-    'Estratégias de anúncios validadas no campo de batalha',
+    'Estratégias validadas com mais de 100 clientes',
     'Método para vender seus serviços de tráfego',
     '7 dias de garantia incondicional',
 ];
