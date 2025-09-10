@@ -4,15 +4,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className="relative py-20 sm:py-32 flex items-center justify-center text-center overflow-hidden">
-      <Image
-        src="https://picsum.photos/seed/chef/1920/1080"
-        alt="Chef feliz mostrando o Manual do Delivery Campeão em um tablet"
-        fill
-        className="object-cover absolute inset-0 z-0"
-        data-ai-hint="chef tablet"
-      />
-      <div className="absolute inset-0 bg-black/60 z-10" />
+    <section className="relative py-20 sm:py-32 flex items-center justify-center text-center overflow-hidden bg-gradient-to-br from-zinc-900 to-black">
       <div className="container mx-auto px-4 text-center z-20 relative">
         <h1 className="text-5xl font-extrabold tracking-tight text-primary sm:text-7xl lg:text-8xl font-headline">
           MANUAL DO<br />DELIVERY CAMPEÃO
