@@ -40,8 +40,8 @@ export default function Offer() {
                       </li>
                     ))}
                 </ul>
-                <Button size="lg" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
-                    QUERO ESTA OFERTA
+                <Button size="lg" className="w-full bg-primary-foreground hover:bg-primary-foreground/90 text-primary font-bold">
+                    QUERO MINHA VAGA
                 </Button>
               </CardContent>
             </Card>
