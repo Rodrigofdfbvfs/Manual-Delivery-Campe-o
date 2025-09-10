@@ -40,7 +40,7 @@ export default function Offer() {
                       </li>
                     ))}
                 </ul>
-                <Button size="lg" className="w-full bg-black hover:bg-black/80 text-primary font-bold">
+                <Button size="lg" className="w-full bg-black hover:bg-black/80 text-primary font-bold transition-transform transform hover:scale-105 animate-pulse-slow">
                     QUERO GARANTIR MINHA VAGA
                 </Button>
               </CardContent>
@@ -63,7 +63,7 @@ export default function Offer() {
                       </li>
                     ))}
                 </ul>
-                <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold">
+                <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold transition-transform transform hover:scale-105 animate-pulse-slow">
                     QUERO COMPRAR A VISTA
                 </Button>
               </CardContent>
