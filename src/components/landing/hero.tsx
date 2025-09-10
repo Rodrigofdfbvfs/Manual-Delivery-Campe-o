@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative py-20 sm:py-32 flex items-center justify-center text-center overflow-hidden bg-gradient-to-br from-zinc-900 to-black">
       <div className="container mx-auto px-4 text-center z-20 relative">
         <h1 className="text-5xl font-extrabold tracking-tight text-primary sm:text-7xl lg:text-8xl font-headline">
-          MANUAL DO<br />DELIVERY CAMPEÃO
+          <span className="text-white">MANUAL DO</span><br />DELIVERY CAMPEÃO
         </h1>
         <p className="mt-6 text-lg max-w-3xl mx-auto font-light leading-8 text-white/90 font-headline">
           Domine a criação de estruturas de anúncios validadas e transforme seu delivery em uma verdadeira máquina de vendas, mesmo começando do zero.
