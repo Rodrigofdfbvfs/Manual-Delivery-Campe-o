@@ -5,9 +5,22 @@ export default function About() {
     <section id="about" className="py-12 sm:py-24">
       <div className="container mx-auto px-4">
         <div className="text-center">
-            <h2 className="text-4xl uppercase font-bold tracking-tight text-primary sm:text-5xl font-headline">
-              SOBRE O SEU MENTOR, VIKTO
+            <div className="mb-8">
+                <Image
+                  src="https://picsum.photos/seed/mentor/300/300"
+                  alt="Foto de Vikto, seu mentor"
+                  width={300}
+                  height={300}
+                  data-ai-hint="man portrait"
+                  className="rounded-full mx-auto shadow-lg"
+                />
+            </div>
+            <h2 className="text-4xl uppercase font-bold tracking-tight text-white sm:text-5xl font-headline">
+              Conheça o <span className="text-primary">Vikto</span>
             </h2>
+            <p className="mt-4 text-xl font-semibold leading-8 text-foreground/80 font-headline max-w-3xl mx-auto">
+                especialista em trafego pago para delivery com resultados comprovados
+            </p>
             <p className="mt-6 text-lg font-light leading-8 text-foreground/80 font-headline max-w-3xl mx-auto">
               Com mais de 4 anos de experiência no campo de batalha do tráfego pago, hoje lidero uma agência que já foi o motor de crescimento para mais de 100 clientes no ramo de delivery.
             </p>
