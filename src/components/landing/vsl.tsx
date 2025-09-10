@@ -1,6 +1,6 @@
 export default function Vsl() {
   return (
-    <section id="vsl" className="py-12 sm:py-16 bg-secondary">
+    <section id="vsl" className="py-12 sm:py-16 bg-zinc-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
             <h2 className="text-5xl font-bold tracking-tight text-foreground sm:text-6xl font-headline">
