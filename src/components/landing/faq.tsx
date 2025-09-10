@@ -15,7 +15,7 @@ const faqItems = [
     answer: "O acesso é imediato após a confirmação do pagamento. Você receberá um e-mail com todas as instruções para acessar a plataforma com as aulas gravadas."
   },
   {
-    question: "Qual a garantia?",
+    question: "Como funciona a garantia?",
     answer: "Você tem 7 dias de garantia incondicional. Se por qualquer motivo achar que o curso não é para você, basta solicitar o reembolso e devolveremos 100% do seu dinheiro."
   },
   {
