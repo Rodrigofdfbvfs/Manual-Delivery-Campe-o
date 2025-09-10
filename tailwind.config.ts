@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ["'Oswald'", 'sans-serif'],
+        body: ["'Open Sans'", 'sans-serif'],
         headline: ["'Oswald'", 'sans-serif'],
         code: ['monospace'],
       },
