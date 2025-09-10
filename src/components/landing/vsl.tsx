@@ -7,7 +7,7 @@ export default function Vsl() {
                 Veja como <span className="text-primary">transformar</span> seu delivery
             </h2>
             <p className="mt-4 text-lg font-light text-foreground/80 font-headline">
-                Veja como centenas of deliveries saíram do zero para o sucesso com este método.
+                Assista ao vídeo exclusivo e descubra os segredos por trás dos deliverys que mais vendem.
             </p>
         </div>
         <div className="aspect-video max-w-4xl mx-auto">
