@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Guarantee() {
   return (
-    <section id="guarantee" className="py-12 sm:py-16 bg-gradient-to-r from-primary to-accent">
+    <section id="guarantee" className="py-8 sm:py-12 bg-gradient-to-r from-primary to-accent">
       <div className="container mx-auto px-4">
         <div className="text-center">
             <ShieldCheck className="h-16 w-16 text-primary-foreground mx-auto mb-4" />
@@ -12,7 +12,7 @@ export default function Guarantee() {
               Garantia Incondicional de 7 Dias
             </h2>
             <p className="mt-4 text-lg font-light leading-8 text-primary-foreground/90 font-headline max-w-3xl mx-auto">
-                Seu risco é zero. Se por qualquer motivo você não estiver satisfeito com o curso, basta nos enviar um e-mail dentro de 7 dias e devolveremos 100% do seu investimento.
+                Seu risco é zero. Se você aplicar o que ensino e não ver os resultados em 7 dias, devolvemos 100% do seu investimento.
             </p>
             <div className="mt-8">
                 <Button size="lg" variant="secondary" asChild className="text-lg px-10 py-7 font-bold hover:brightness-110 transition-all transform hover:scale-105">
