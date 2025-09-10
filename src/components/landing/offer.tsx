@@ -19,7 +19,7 @@ export default function Offer() {
 
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
             <Card className="lg:col-start-2 border-2 border-primary shadow-2xl shadow-primary/20 relative bg-primary text-primary-foreground">
-              <div className="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2">
+              <div className="absolute top-4 right-4">
                 <div className="bg-primary-foreground text-primary font-bold font-headline py-1 px-4 rounded-full uppercase text-xs">
                   Mais Popular
                 </div>
