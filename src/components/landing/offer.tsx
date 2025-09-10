@@ -20,7 +20,7 @@ export default function Offer() {
         <div className="mt-12 max-w-lg mx-auto grid grid-cols-1 gap-8 items-start">
             <Card className="border-2 border-primary shadow-2xl shadow-primary/20 relative bg-primary text-primary-foreground">
               <div className="absolute top-4 right-4">
-                <div className="bg-primary-foreground text-primary font-bold font-headline py-1 px-4 rounded-full uppercase text-xs">
+                <div className="bg-black text-primary font-bold font-headline py-1 px-4 rounded-full uppercase text-xs">
                   Mais Popular
                 </div>
               </div>
@@ -40,13 +40,13 @@ export default function Offer() {
                       </li>
                     ))}
                 </ul>
-                <Button size="lg" className="w-full bg-primary-foreground hover:bg-primary-foreground/90 text-primary font-bold">
+                <Button size="lg" className="w-full bg-black hover:bg-black/80 text-primary font-bold">
                     QUERO MINHA VAGA
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="bg-card text-card-foreground border border-border">
+            <Card className="bg-black text-card-foreground border border-border">
               <CardHeader className="pt-10">
                 <p className="text-base font-bold uppercase tracking-wide text-foreground/90">À Vista</p>
                 <div className="flex items-baseline justify-center gap-x-2">
