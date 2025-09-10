@@ -20,7 +20,7 @@ const faqItems = [
   },
   {
     question: "As aulas são ao vivo ou gravadas?",
-    answer: "Todas as aulas são gravadas para que você possa assistir no seu próprio ritmo, quando e onde quiser. Você terá acesso vitalício a todo o conteúdo e futuras atualizações."
+    answer: "O curso é 100% online com aulas gravadas para você assistir no seu tempo, quantas vezes quiser. Assim que o pagamento for confirmado, você receberá acesso a uma área de membros exclusiva com todo o conteúdo já disponível. Além disso, você terá acesso vitalício ao curso, incluindo todas as futuras atualizações sem custo adicional."
   }
 ]
 
