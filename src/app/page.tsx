@@ -2,6 +2,7 @@ import About from '@/components/landing/about';
 import AdCopyGenerator from '@/components/landing/ad-copy-generator';
 import Faq from '@/components/landing/faq';
 import Footer from '@/components/landing/footer';
+import Guarantee from '@/components/landing/guarantee';
 import Hero from '@/components/landing/hero';
 import Offer from '@/components/landing/offer';
 import Transformation from '@/components/landing/transformation';
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <Vsl />
         <Transformation />
+        <Guarantee />
         <About />
         <Offer />
         <AdCopyGenerator />
