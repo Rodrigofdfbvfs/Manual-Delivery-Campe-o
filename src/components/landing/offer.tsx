@@ -18,24 +18,24 @@ export default function Offer() {
         </h2>
 
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-            <Card className="lg:col-start-2 border-2 border-primary shadow-2xl shadow-primary/20 relative">
+            <Card className="lg:col-start-2 border-2 border-primary shadow-2xl shadow-primary/20 relative bg-primary text-primary-foreground">
               <div className="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2">
-                <div className="bg-primary text-primary-foreground font-bold font-headline py-1 px-4 rounded-full uppercase text-sm">
+                <div className="bg-primary-foreground text-primary font-bold font-headline py-1 px-4 rounded-full uppercase text-xs">
                   Mais Popular
                 </div>
               </div>
               <CardHeader className="pt-10">
-                <CardTitle className="text-primary font-bold font-headline">12x de</CardTitle>
+                <CardTitle className="text-primary-foreground font-bold font-headline">12x de</CardTitle>
                 <div className="flex items-baseline justify-center gap-x-2">
                   <span className="text-5xl font-bold tracking-tight font-headline">R$20,37</span>
                 </div>
-                <CardDescription>ou R$197,00 à vista</CardDescription>
+                <CardDescription className="text-primary-foreground/80">ou R$197,00 à vista</CardDescription>
               </CardHeader>
               <CardContent className="flex flex-col gap-6">
-                <ul role="list" className="space-y-3 text-left font-light font-headline text-foreground/80">
+                <ul role="list" className="space-y-3 text-left font-light font-headline text-primary-foreground/90">
                     {includedFeatures.map((feature) => (
                       <li key={feature} className="flex items-center gap-3">
-                        <Check className="h-5 w-5 flex-shrink-0 text-primary" aria-hidden="true" />
+                        <Check className="h-5 w-5 flex-shrink-0 text-primary-foreground" aria-hidden="true" />
                         {feature}
                       </li>
                     ))}
