@@ -24,8 +24,8 @@ export default function Transformation() {
     <section id="transformation" className="py-12 sm:py-24 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 id="transformation-heading" className="text-4xl uppercase font-bold tracking-tight text-primary sm:text-5xl font-headline">
-            A transformação que o seu delivery precisa
+          <h2 id="transformation-heading" className="text-4xl uppercase font-bold tracking-tight text-white sm:text-5xl font-headline">
+            A <span className="text-primary">transformação</span> que o seu delivery precisa
           </h2>
           <p className="mt-4 text-lg font-light text-foreground/80 font-headline">
             O Manual do Delivery Campeão é para você que busca:
