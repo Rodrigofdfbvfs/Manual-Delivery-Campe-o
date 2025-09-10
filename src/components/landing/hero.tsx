@@ -20,7 +20,7 @@ export default function Hero() {
           Aprenda a criar uma estrutura de anúncios validada e transforme seu delivery em uma máquina de vendas, mesmo que você esteja começando do zero.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
-          <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground">
+          <Button size="lg" asChild className="bg-gradient-to-r from-primary to-accent text-lg px-10 py-8 font-bold text-primary-foreground hover:brightness-110 transition-all transform hover:scale-105">
             <Link href="#oferta">
               QUERO VENDER MAIS AGORA
             </Link>
