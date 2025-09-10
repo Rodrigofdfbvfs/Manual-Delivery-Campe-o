@@ -26,11 +26,11 @@ const stats = [
 
 export default function Stats() {
   return (
-    <section id="stats" className="py-12 sm:py-24">
+    <section id="stats" className="py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center">
           {stats.map((stat) => (
-            <Card key={stat.label} className="bg-transparent border-0 shadow-none">
+            <Card key={stat.label}>
               <CardHeader className="items-center">
                 {stat.icon}
               </CardHeader>
