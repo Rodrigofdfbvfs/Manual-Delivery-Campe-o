@@ -6,6 +6,7 @@ import Guarantee from '@/components/landing/guarantee';
 import Hero from '@/components/landing/hero';
 import Offer from '@/components/landing/offer';
 import Quote from '@/components/landing/quote';
+import Stats from '@/components/landing/stats';
 import Transformation from '@/components/landing/transformation';
 import Vsl from '@/components/landing/vsl';
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Transformation />
         <Guarantee />
         <About />
+        <Stats />
         <Quote />
         <Offer />
         <AdCopyGenerator />
