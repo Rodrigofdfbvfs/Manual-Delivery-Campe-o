@@ -17,10 +17,6 @@ const faqItems = [
   {
     question: "Como funciona a garantia?",
     answer: "Você tem 7 dias de garantia incondicional. Se por qualquer motivo achar que o curso não é para você, basta solicitar o reembolso e devolveremos 100% do seu dinheiro."
-  },
-  {
-    question: "As aulas são ao vivo ou gravadas?",
-    answer: "O curso é 100% online com aulas gravadas para você assistir no seu tempo, quantas vezes quiser. Assim que o pagamento for confirmado, você receberá acesso a uma área de membros exclusiva com todo o conteúdo já disponível. Além disso, você terá acesso vitalício ao curso, incluindo todas as futuras atualizações sem custo adicional."
   }
 ]
 
