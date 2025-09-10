@@ -8,7 +8,7 @@ import {
 const faqItems = [
   {
     question: "Como funciona o curso manual do delivery campeão?",
-    answer: "o curso é composto por aulas gravadas que você pode assistir no seu ritmo. Ele aborda desde os conceitos básicos até eestrategias avançadas de anuncios para delivery, uncluindo templates práticos e metodos validados"
+    answer: "O curso é composto por aulas gravadas que você pode assistir no seu ritmo. Ele aborda desde os conceitos básicos até estratégias avançadas de anúncios para delivery, incluindo templates práticos e métodos validados."
   },
   {
     question: "Para quem é o Manual do Delivery Campeão?",
