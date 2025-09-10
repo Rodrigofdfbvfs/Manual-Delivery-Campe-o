@@ -26,11 +26,11 @@ const stats = [
 
 export default function Stats() {
   return (
-    <section id="stats" className="py-8">
+    <section id="stats" className="py-8 bg-gradient-to-br from-zinc-900 to-black">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center">
           {stats.map((stat) => (
-            <Card key={stat.label}>
+            <Card key={stat.label} className="bg-transparent border-zinc-800">
               <CardHeader className="items-center pb-2">
                 {stat.icon}
               </CardHeader>

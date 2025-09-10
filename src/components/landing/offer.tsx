@@ -11,7 +11,7 @@ const includedFeatures = [
 
 export default function Offer() {
   return (
-    <section id="oferta" className="py-12 sm:py-24 bg-secondary">
+    <section id="oferta" className="py-12 sm:py-24 bg-gradient-to-bl from-zinc-900 to-black">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl uppercase font-bold tracking-tight text-white sm:text-5xl font-headline">
           <span className="text-primary">Oferta especial</span> por tempo limitado

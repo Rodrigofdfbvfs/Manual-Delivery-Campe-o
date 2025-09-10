@@ -26,7 +26,7 @@ const faqItems = [
 
 export default function Faq() {
   return (
-    <section id="faq" className="py-12 sm:py-24 bg-secondary">
+    <section id="faq" className="py-12 sm:py-24 bg-gradient-to-br from-zinc-900 to-black">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center">
           <h2 className="text-4xl uppercase font-bold tracking-tight text-primary sm:text-5xl font-headline">
