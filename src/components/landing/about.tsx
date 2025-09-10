@@ -1,24 +1,18 @@
 import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function About() {
-  const viktoImage = PlaceHolderImages.find(p => p.id === 'vikto-profile');
-
   return (
     <section id="about" className="py-12 sm:py-24">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-5 items-center">
           <div className="md:col-span-2">
-            {viktoImage && (
-              <Image
-                src={viktoImage.imageUrl}
-                alt={viktoImage.description}
-                data-ai-hint={viktoImage.imageHint}
-                width={400}
-                height={400}
-                className="rounded-full aspect-square object-cover mx-auto w-64 h-64 md:w-full md:h-auto border-4 border-primary shadow-lg"
-              />
-            )}
+            <Image
+              src="/vikto-profile.png"
+              alt="Foto do seu mentor, Vikto"
+              width={400}
+              height={400}
+              className="rounded-full aspect-square object-cover mx-auto w-64 h-64 md:w-full md:h-auto border-4 border-primary shadow-lg"
+            />
           </div>
           <div className="md:col-span-3">
             <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl font-headline">
