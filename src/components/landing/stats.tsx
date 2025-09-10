@@ -3,22 +3,22 @@ import { Users, DollarSign, Calendar, Target } from "lucide-react";
 
 const stats = [
   {
-    icon: <Users className="h-10 w-10 text-primary" />,
+    icon: <Users className="h-8 w-8 text-primary" />,
     value: "100+",
     label: "clientes avançados",
   },
   {
-    icon: <DollarSign className="h-10 w-10 text-primary" />,
+    icon: <DollarSign className="h-8 w-8 text-primary" />,
     value: "R$ 500K+",
     label: "investidos em anúncios",
   },
   {
-    icon: <Calendar className="h-10 w-10 text-primary" />,
+    icon: <Calendar className="h-8 w-8 text-primary" />,
     value: "4+",
     label: "anos de experiência",
   },
   {
-    icon: <Target className="h-10 w-10 text-primary" />,
+    icon: <Target className="h-8 w-8 text-primary" />,
     value: "100%",
     label: "focado em delivery",
   },
@@ -26,19 +26,19 @@ const stats = [
 
 export default function Stats() {
   return (
-    <section id="stats" className="py-12">
+    <section id="stats" className="py-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center">
           {stats.map((stat) => (
             <Card key={stat.label}>
-              <CardHeader className="items-center">
+              <CardHeader className="items-center pb-2">
                 {stat.icon}
               </CardHeader>
               <CardContent>
-                <h3 className="text-4xl sm:text-5xl font-extrabold text-primary font-headline">
+                <h3 className="text-3xl sm:text-4xl font-extrabold text-primary font-headline">
                   {stat.value}
                 </h3>
-                <p className="mt-2 text-sm sm:text-base text-foreground/80 font-headline uppercase font-semibold">
+                <p className="mt-1 text-xs sm:text-sm text-foreground/80 font-headline uppercase font-semibold">
                   {stat.label}
                 </p>
               </CardContent>
