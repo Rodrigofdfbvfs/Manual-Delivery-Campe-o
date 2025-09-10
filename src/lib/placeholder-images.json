@@ -5,6 +5,12 @@
       "description": "Profile picture of Vikto, the instructor.",
       "imageUrl": "https://picsum.photos/seed/vikto/400/400",
       "imageHint": "man portrait"
+    },
+    {
+      "id": "hero-background",
+      "description": "Eye-catching background image for the hero section.",
+      "imageUrl": "https://picsum.photos/seed/hero-bg/1280/720",
+      "imageHint": "food delivery"
     }
   ]
 }
