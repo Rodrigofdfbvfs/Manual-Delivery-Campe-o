@@ -25,8 +25,8 @@ export default function Offer() {
                 </div>
               </div>
               <CardHeader className="pt-10">
-                <CardTitle className="text-primary-foreground font-bold font-headline">12x de</CardTitle>
                 <div className="flex items-baseline justify-center gap-x-2">
+                  <span className="text-2xl font-bold tracking-tight font-headline">12x de</span>
                   <span className="text-5xl font-bold tracking-tight font-headline">R$20,37</span>
                 </div>
                 <CardDescription className="text-primary-foreground/80">ou R$197,00 à vista</CardDescription>
