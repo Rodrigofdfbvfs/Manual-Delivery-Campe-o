@@ -10,7 +10,7 @@ export default function Hero() {
           MANUAL DO<br />DELIVERY CAMPEÃO
         </h1>
         <p className="mt-6 text-lg max-w-3xl mx-auto font-light leading-8 text-white/90 font-headline">
-          Aprenda a criar uma estrutura de anúncios validada e transforme seu delivery em uma máquina de vendas. Mesmo que esteja começando do zero, você terá acesso a um método simples e comprovado, capaz de gerar demanda real, aumentar suas vendas e profissionalizar seu delivery rapidamente.
+          Domine a criação de estruturas de anúncios validadas e transforme seu delivery em uma verdadeira máquina de vendas, mesmo começando do zero.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <Button size="lg" asChild className="bg-gradient-to-r from-primary to-accent text-lg px-10 py-8 font-bold text-primary-foreground hover:brightness-110 transition-all transform hover:scale-105">
