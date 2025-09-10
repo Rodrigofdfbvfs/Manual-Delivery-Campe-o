@@ -5,6 +5,7 @@ import Footer from '@/components/landing/footer';
 import Guarantee from '@/components/landing/guarantee';
 import Hero from '@/components/landing/hero';
 import Offer from '@/components/landing/offer';
+import Quote from '@/components/landing/quote';
 import Transformation from '@/components/landing/transformation';
 import Vsl from '@/components/landing/vsl';
 
@@ -17,6 +18,7 @@ export default function Home() {
         <Transformation />
         <Guarantee />
         <About />
+        <Quote />
         <Offer />
         <AdCopyGenerator />
         <Faq />
