@@ -1,9 +1,9 @@
-import { Target, TrendingUp, Briefcase } from 'lucide-react';
+import { Rocket, TrendingUp, Briefcase } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const features = [
   {
-    icon: <Target className="h-8 w-8 text-primary" />,
+    icon: <Rocket className="h-8 w-8 text-primary" />,
     title: 'Iniciante no Delivery',
     subtitle: 'Do zero à demanda constante',
     description: 'Aprenda a criar seu primeiro delivery com uma estrutura de anúncios que gera pedidos desde o primeiro dia.',
@@ -12,7 +12,7 @@ const features = [
     icon: <TrendingUp className="h-8 w-8 text-primary" />,
     title: 'Delivery em Crescimento',
     subtitle: 'multiplique suas vendas',
-    description: 'otimize seus anuncios atuais e implemente estrategias avançadas para alavancar ainda mais suas vendas',
+    description: 'Otimize seus anuncios atuais e implemente estrategias avançadas para alavancar ainda mais suas vendas',
   },
   {
     icon: <Briefcase className="h-8 w-8 text-primary" />,
