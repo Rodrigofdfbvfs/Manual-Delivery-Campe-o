@@ -63,8 +63,8 @@ export default function Offer() {
                       </li>
                     ))}
                 </ul>
-                <Button size="lg" className="w-full bg-primary-foreground hover:bg-primary-foreground/90 text-primary font-bold">
-                    QUERO MINHA VAGA
+                <Button size="lg" className="w-full bg-white hover:bg-white/90 text-primary font-bold">
+                    Comprar a vista
                 </Button>
               </CardContent>
             </Card>
