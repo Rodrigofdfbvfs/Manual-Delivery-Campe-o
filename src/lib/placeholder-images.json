@@ -1,3 +1,10 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "vikto-profile",
+      "description": "Profile picture of Vikto, the instructor.",
+      "imageUrl": "https://picsum.photos/seed/vikto/400/400",
+      "imageHint": "man portrait"
+    }
+  ]
 }

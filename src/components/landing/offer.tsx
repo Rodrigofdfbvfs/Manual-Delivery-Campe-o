@@ -1,0 +1,55 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Check } from "lucide-react";
+
+const includedFeatures = [
+    'Aulas gravadas, do básico ao avançado',
+    'Estratégias de anúncios validadas no campo de batalha',
+    'Método para vender seus serviços de tráfego',
+    '7 dias de garantia incondicional',
+];
+
+export default function Offer() {
+  return (
+    <section id="oferta" className="py-12 sm:py-24 bg-secondary">
+      <div className="container mx-auto px-4 text-center">
+        <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl font-headline">
+          OFERTA ESPECIAL DE LANÇAMENTO
+        </h2>
+        <p className="mt-4 text-lg max-w-2xl mx-auto font-light leading-8 text-foreground/80 font-headline">
+          Tenha acesso a todo o conhecimento que vai transformar seu delivery por um preço que cabe no seu bolso.
+        </p>
+
+        <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+            <Card className="lg:col-start-2 border-2 border-primary shadow-2xl shadow-primary/20 relative">
+              <div className="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2">
+                <div className="bg-primary text-primary-foreground font-bold font-headline py-1 px-4 rounded-full uppercase text-sm">
+                  Mais Popular
+                </div>
+              </div>
+              <CardHeader className="pt-10">
+                <CardTitle className="text-primary font-bold font-headline">12x de</CardTitle>
+                <div className="flex items-baseline justify-center gap-x-2">
+                  <span className="text-5xl font-bold tracking-tight font-headline">R$20,37</span>
+                </div>
+                <CardDescription>ou R$197,00 à vista</CardDescription>
+              </CardHeader>
+              <CardContent className="flex flex-col gap-6">
+                <ul role="list" className="space-y-3 text-left font-light font-headline text-foreground/80">
+                    {includedFeatures.map((feature) => (
+                      <li key={feature} className="flex items-center gap-3">
+                        <Check className="h-5 w-5 flex-shrink-0 text-primary" aria-hidden="true" />
+                        {feature}
+                      </li>
+                    ))}
+                </ul>
+                <Button size="lg" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
+                    QUERO ESTA OFERTA
+                </Button>
+              </CardContent>
+            </Card>
+        </div>
+      </div>
+    </section>
+  );
+}
