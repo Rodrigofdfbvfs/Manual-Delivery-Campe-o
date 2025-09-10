@@ -3,7 +3,7 @@ export default function Vsl() {
     <section id="vsl" className="py-12 sm:py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl font-headline">
+            <h2 className="text-4xl uppercase font-bold tracking-tight text-primary sm:text-5xl font-headline">
                 Assista e Descubra o Segredo
             </h2>
             <p className="mt-4 text-lg font-light text-foreground/80 font-headline">
