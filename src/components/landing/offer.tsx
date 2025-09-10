@@ -64,7 +64,7 @@ export default function Offer() {
                     ))}
                 </ul>
                 <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold">
-                    Comprar a vista
+                    QUERO COMPRAR A VISTA
                 </Button>
               </CardContent>
             </Card>
