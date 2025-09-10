@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/60 z-10" />
       <div className="container mx-auto px-4 text-center z-20 relative">
         <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-6xl lg:text-7xl font-headline">
-          MANUAL DO DELIVERY CAMPEÃO
+          MANUAL DO<br />DELIVERY CAMPEÃO
         </h1>
         <p className="mt-6 text-lg max-w-3xl mx-auto font-light leading-8 text-white/90 font-headline">
           Aprenda a criar uma estrutura de anúncios validada e transforme seu delivery em uma máquina de vendas, mesmo que você esteja começando do zero.
