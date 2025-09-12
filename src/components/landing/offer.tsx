@@ -19,11 +19,6 @@ export default function Offer() {
 
         <div className="mt-12 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             <Card className="border-2 border-primary shadow-2xl shadow-primary/20 relative bg-primary text-primary-foreground">
-              <div className="absolute top-4 right-4">
-                <div className="bg-black text-primary font-bold font-headline py-1 px-4 rounded-full uppercase text-xs">
-                  Mais Popular
-                </div>
-              </div>
               <CardHeader className="pt-10">
                 <p className="text-base font-bold uppercase tracking-wide text-primary-foreground/90">Parcelado</p>
                 <div className="flex items-baseline justify-center gap-x-2">
