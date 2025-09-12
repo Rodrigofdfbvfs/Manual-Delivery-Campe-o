@@ -36,7 +36,7 @@ export default function Transformation() {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
           {features.map((feature) => (
-            <Card key={feature.title} className="text-center border-primary/20 hover:border-primary transition-colors rounded-2xl bg-zinc-900/50">
+            <Card key={feature.title} className="text-center border-primary/20 hover:border-primary transition-all rounded-2xl bg-zinc-900/50 hover:scale-105">
               <CardHeader>
                 <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
                   {feature.icon}
