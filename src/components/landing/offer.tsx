@@ -45,7 +45,7 @@ export default function Offer() {
               <CardHeader className="pt-10">
                 <p className="text-base font-bold uppercase tracking-wide text-foreground/90">À Vista</p>
                 <div className="flex items-baseline justify-center gap-x-2">
-                  <span className="text-4xl font-bold tracking-tight font-headline text-primary">R$197,00</span>
+                  <span className="text-4xl font-bold tracking-tight font-headline text-primary">R$47,00</span>
                 </div>
                 <CardDescription>pagamento único</CardDescription>
               </CardHeader>
