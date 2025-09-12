@@ -144,8 +144,8 @@
 
 @media only screen and (min-width: 600px) {
   .shiny-cta-button {
-    padding: 1.25rem 2.5rem !important;
-    font-size: 1.325rem !important;
+    padding: 1.5rem 3rem !important;
+    font-size: 1.5rem !important;
     line-height: 1.2 !important;
   }
 }
@@ -333,4 +333,40 @@
   -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;
   border: 1px solid hsl(var(--primary));
+}
+
+.destaque{
+    background: linear-gradient(to right, hsl(var(--primary) / 0.1) 70%, transparent);
+    padding: 10px 20px;
+    width: fit-content;
+    margin-top:20px;
+    margin-bottom: 20px;
+    position: relative;
+    border-left: 5px solid hsl(var(--primary));
+}
+
+.destaque::after{
+    content: url("https://page.dsgnrafa.com/wp-content/uploads/2024/09/back-1.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    scale: 0.6;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    right: calc(-18% - 50px);
+    transform: translate(-50%, -50%);
+    animation: setassvg 3s infinite;
+    z-index: 6;
+    filter: invert(65%) sepia(87%) saturate(2296%) hue-rotate(2deg) brightness(102%) contrast(106%);
+}
+
+@keyframes setassvg{
+    0%, 100%{
+    transform: translatex(0);
+    }
+    50%{
+    transform: translatex(20px);
+    }
 }
