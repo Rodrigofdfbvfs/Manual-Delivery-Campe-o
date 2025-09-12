@@ -10,7 +10,7 @@ export default function About() {
               Conheça o <span className="text-primary">Viktor Duarte</span>
             </h2>
             <p className="mt-4 text-xl font-semibold leading-8 text-foreground/80 font-headline max-w-3xl mx-auto">
-              Especialista em trafego pago para delivery com resultados comprovados
+              Especialista em Tráfego Pago para delivery com resultados comprovados
             </p>
           </div>
 
