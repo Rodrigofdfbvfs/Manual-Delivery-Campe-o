@@ -308,3 +308,11 @@
   z-index: 999;
   pointer-events: all;
 }
+
+/* Countdown Timer */
+.countdown-item {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid #ffffff50;
+}

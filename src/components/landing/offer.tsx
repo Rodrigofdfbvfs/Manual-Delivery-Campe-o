@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, Lock, ShieldCheck, Zap } from "lucide-react";
+import CountdownTimer from "./countdown-timer";
 
 const includedFeatures = [
     'Aulas gravadas, do básico ao avançado',
@@ -16,6 +17,8 @@ export default function Offer() {
         <h2 className="text-4xl uppercase font-bold tracking-tight text-white sm:text-5xl font-headline">
           <span className="text-primary">Oferta especial</span> por tempo limitado
         </h2>
+        
+        <CountdownTimer duration={30 * 60 * 1000} />
 
         <div className="mt-12 max-w-md mx-auto">
             <Card className="border-2 border-primary shadow-2xl shadow-primary/20 relative bg-black text-card-foreground">
