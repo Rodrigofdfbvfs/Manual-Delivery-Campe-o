@@ -8,7 +8,7 @@ export default function Guarantee() {
       <div className="container mx-auto px-4">
         <div className="text-center">
             <ShieldCheck className="h-16 w-16 text-primary-foreground mx-auto mb-4" />
-            <h2 className="text-3xl uppercase font-bold tracking-tight text-primary-foreground sm:text-4xl font-headline">
+            <h2 className="text-2xl uppercase font-bold tracking-tight text-primary-foreground sm:text-3xl font-headline">
               Garantia Incondicional de 7 Dias
             </h2>
             <p className="mt-4 text-lg font-light leading-8 text-primary-foreground/90 font-headline max-w-3xl mx-auto">
