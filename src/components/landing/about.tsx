@@ -9,7 +9,7 @@ export default function About() {
               Conheça o <span className="text-primary">Vikto</span>
             </h2>
             <p className="mt-4 text-xl font-semibold leading-8 text-foreground/80 font-headline max-w-3xl mx-auto">
-                especialista em trafego pago para delivery com resultados comprovados
+                Especialista em trafego pago para delivery com resultados comprovados
             </p>
             <div className="my-8">
                 <Image
