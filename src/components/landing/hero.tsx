@@ -14,7 +14,7 @@ export default function Hero() {
           <span className="text-white">MANUAL DO</span><br />DELIVERY CAMPEÃO
         </h1>
         <p className="mt-6 text-lg max-w-3xl mx-auto font-light leading-8 text-white/90 font-headline">
-          Domine a criação de estruturas de anúncios validadas e transforme seu delivery em uma verdadeira máquina de vendas, mesmo começando do zero.
+          Domine a criação de estruturas de anúncios validadas e transforme seu delivery em uma verdadeira máquina de vendas.
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-y-6">
           <Button size="lg" asChild className="shiny-cta-button">
