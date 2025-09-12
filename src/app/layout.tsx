@@ -17,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="dark">
       <head>
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4387/4387430.png" type="image/png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet" />
