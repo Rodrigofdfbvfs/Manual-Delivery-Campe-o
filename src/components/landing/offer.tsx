@@ -7,7 +7,7 @@ const includedFeatures = [
     'Aulas gravadas, do básico ao avançado',
     'Estratégias validadas com mais de 100 clientes',
     'Método para vender seus serviços de tráfego',
-    'Do iniciante ao avançado sobre gerenciador de facebook',
+    'Do iniciante ao avançado sobre gerenciador de anúncio',
     '7 dias de garantia incondicional',
 ];
 
