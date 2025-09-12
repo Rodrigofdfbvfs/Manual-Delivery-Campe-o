@@ -7,6 +7,7 @@ const includedFeatures = [
     'Aulas gravadas, do básico ao avançado',
     'Estratégias validadas com mais de 100 clientes',
     'Método para vender seus serviços de tráfego',
+    'Do iniciante ao avançado sobre gerenciador de facebook',
     '7 dias de garantia incondicional',
 ];
 
@@ -25,7 +26,7 @@ export default function Offer() {
               <CardHeader className="pt-10">
                 <p className="text-base font-bold uppercase tracking-wide text-foreground/90">Pagamento Único</p>
                 <div className="flex items-baseline justify-center gap-x-2">
-                  <span className="text-5xl font-bold tracking-tight font-headline text-primary">R$47,90</span>
+                  <span className="text-5xl font-bold tracking-tight font-headline text-primary sm:text-6xl">R$47,90</span>
                 </div>
               </CardHeader>
               <CardContent className="flex flex-col gap-6">
