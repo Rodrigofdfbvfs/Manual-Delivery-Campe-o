@@ -8,6 +8,7 @@ import Quote from '@/components/landing/quote';
 import Stats from '@/components/landing/stats';
 import Transformation from '@/components/landing/transformation';
 import Vsl from '@/components/landing/vsl';
+import WhatYouWillLearn from '@/components/landing/what-you-will-learn';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <Vsl />
         <Transformation />
+        <WhatYouWillLearn />
         <Guarantee />
         <About />
         <Quote />
