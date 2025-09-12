@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section className="relative py-20 sm:py-32 flex items-center justify-center text-center overflow-hidden bg-gradient-to-br from-zinc-900 to-black">
       <div className="container mx-auto px-4 text-center z-20 relative">
-        <div className="inline-block bg-primary/10 text-primary font-bold py-2 px-4 rounded-full border border-primary mb-4">
+        <div className="inline-block text-primary font-bold py-2 px-4 rounded-full mb-4">
           Transforme o seu delivery em uma máquina de vendas
         </div>
         <h1 className="text-5xl font-extrabold tracking-tight text-primary sm:text-7xl lg:text-8xl font-headline">
@@ -17,7 +17,7 @@ export default function Hero() {
           Domine a criação de estruturas de anúncios validadas e transforme seu delivery em uma verdadeira máquina de vendas, mesmo começando do zero.
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-y-6">
-          <Button size="lg" asChild className="bg-gradient-to-r from-primary to-accent text-lg px-10 py-7 font-bold text-primary-foreground hover:brightness-110 transition-all transform hover:scale-105">
+          <Button size="lg" asChild className="shiny-cta-button">
             <Link href="#oferta">
               QUERO COMEÇAR AGORA
             </Link>

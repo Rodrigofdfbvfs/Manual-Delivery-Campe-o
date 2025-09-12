@@ -35,7 +35,7 @@ export default function Offer() {
                       </li>
                     ))}
                 </ul>
-                <Button size="lg" className="w-full bg-black hover:bg-black/80 text-primary font-bold transition-transform transform hover:scale-105">
+                <Button size="lg" className="shiny-cta-button w-full">
                     QUERO GARANTIR MINHA VAGA
                 </Button>
               </CardContent>
@@ -58,7 +58,7 @@ export default function Offer() {
                       </li>
                     ))}
                 </ul>
-                <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold transition-transform transform hover:scale-105">
+                <Button size="lg" className="shiny-cta-button w-full">
                     QUERO COMPRAR A VISTA
                 </Button>
               </CardContent>
