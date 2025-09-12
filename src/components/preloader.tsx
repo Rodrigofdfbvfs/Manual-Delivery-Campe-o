@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Loader2 } from 'lucide-react';
 
 export default function Preloader() {
   const [isHidden, setIsHidden] = useState(false);
@@ -31,12 +30,11 @@ export default function Preloader() {
 
   return (
     <div
-      className={`preloader fixed inset-0 bg-background flex flex-col items-center justify-center ${
+      className={`preloader fixed inset-0 bg-black flex flex-col items-center justify-center ${
         isHidden ? 'hidden' : ''
       }`}
     >
-      <Loader2 className="h-16 w-16 animate-spin text-primary mb-4" />
-      <p className="text-xl text-foreground font-headline">
+      <p className="text-2xl text-white font-headline font-bold">
         A virada de chave para o seu delivery.
       </p>
     </div>
