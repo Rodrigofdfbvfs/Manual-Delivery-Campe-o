@@ -264,3 +264,18 @@
 .preloader.hidden {
     transform: translateY(-100vh);
 }
+
+.preloader-text {
+  animation: fade-in-pulse 2s ease-in-out infinite;
+}
+
+@keyframes fade-in-pulse {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}

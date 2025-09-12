@@ -30,12 +30,14 @@ export default function Preloader() {
 
   return (
     <div
-      className={`preloader fixed inset-0 bg-black flex flex-col items-center justify-center ${
+      className={`preloader fixed inset-0 bg-black flex flex-col items-center justify-center text-center ${
         isHidden ? 'hidden' : ''
       }`}
     >
-      <p className="text-2xl text-white font-headline font-bold">
-        A virada de chave para o seu delivery.
+      <p className="text-4xl sm:text-5xl text-white font-headline font-bold preloader-text">
+        A <span className="text-primary">virada de chave</span>
+        <br />
+        para o seu delivery.
       </p>
     </div>
   );
