@@ -10,8 +10,8 @@ export default function Hero() {
         <Image 
           src="https://i.ibb.co/Kp9yR1GW/LOGOMANUAL.png"
           alt="Manual do Delivery Campeão Logo"
-          width={150}
-          height={50}
+          width={100}
+          height={33}
           className="mx-auto mb-4"
           data-ai-hint="logo text"
         />
