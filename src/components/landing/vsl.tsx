@@ -10,7 +10,7 @@ export default function Vsl() {
                 Assista ao vídeo exclusivo e descubra os segredos por trás dos deliverys que mais vendem.
             </p>
         </div>
-        <div className="aspect-video max-w-4xl mx-auto">
+        <div className="aspect-video max-w-4xl mx-auto videoo">
           <iframe
             className="w-full h-full rounded-lg shadow-2xl"
             src="https://www.youtube.com/embed/pBQCbaT2rQo"

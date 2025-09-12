@@ -80,7 +80,7 @@
   --shiny-cta-bg: #000000;
   --shiny-cta-bg-subtle: #1a1818;
   --shiny-cta-fg: #ffffff;
-  --shiny-cta-highlight: #FFC300;
+  --shiny-cta-highlight: #FFD700;
   --shiny-cta-highlight-subtle: white;
 }
 
@@ -278,4 +278,31 @@
     opacity: 1;
     transform: scale(1);
   }
+}
+
+/* Video Overlay */
+.videoo {
+  position: relative;
+}
+
+.videoo::before {
+  content: "";
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent);
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  pointer-events: all;
+}
+
+.videoo::after {
+  content: "";
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), transparent);
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+  pointer-events: all;
 }
