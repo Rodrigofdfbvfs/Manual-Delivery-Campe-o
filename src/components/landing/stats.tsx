@@ -30,7 +30,7 @@ export default function Stats() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center">
           {stats.map((stat) => (
-            <Card key={stat.label} className="bg-transparent border-zinc-800">
+            <Card key={stat.label} className="bg-transparent border-zinc-800 hover:border-primary hover:scale-105 transition-all">
               <CardHeader className="items-center pb-2">
                 {stat.icon}
               </CardHeader>
