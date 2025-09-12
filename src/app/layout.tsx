@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
+import Preloader from '@/components/preloader';
 
 export const metadata: Metadata = {
   title: 'Manual do Delivery Campeão',
@@ -20,6 +21,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased">
+        <Preloader />
         {children}
         <Toaster />
       </body>

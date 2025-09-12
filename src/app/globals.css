@@ -253,3 +253,14 @@
 .shiny-cta-button:hover::after {
   animation-play-state: running;
 }
+
+/* Preloader Styles */
+.preloader {
+    z-index: 999999999;
+    display: flex;
+    transition: transform 2s ease;
+}
+
+.preloader.hidden {
+    transform: translateY(-100vh);
+}
