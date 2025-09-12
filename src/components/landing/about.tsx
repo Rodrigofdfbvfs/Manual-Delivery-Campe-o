@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="about" className="py-12 sm:py-24 bg-gradient-to-bl from-zinc-900 to-black">
       <div className="container mx-auto px-4">
-        <div className="text-center">
+        <div className="text-center p-8 rounded-lg transition-all duration-300 hover:bg-primary/10 hover:scale-105">
             <h2 className="text-4xl uppercase font-bold tracking-tight text-white sm:text-5xl font-headline">
               Conheça o <span className="text-primary">Vikto</span>
             </h2>
