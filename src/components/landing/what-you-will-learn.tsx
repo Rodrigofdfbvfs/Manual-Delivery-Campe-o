@@ -1,5 +1,12 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+'use client';
+
+import { useEffect, useRef } from 'react';
+import { Card, CardContent } from '@/components/ui/card';
 import { CheckCircle } from 'lucide-react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const learningPoints = [
   'Como configurar o seu gerenciador de anúncio do zero',
@@ -10,8 +17,66 @@ const learningPoints = [
 ];
 
 export default function WhatYouWillLearn() {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const timelineRef = useRef<HTMLUListElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      const texts = gsap.utils.toArray('.timeline-text');
+      const timelineBar = document.createElement('div');
+      
+      if (timelineRef.current) {
+        timelineBar.style.position = 'absolute';
+        timelineBar.style.top = '0';
+        timelineBar.style.left = '12px'; // Center on the icon
+        timelineBar.style.transform = 'translateX(-50%)';
+        timelineBar.style.width = '2px';
+        timelineBar.style.height = '0%';
+        timelineBar.style.backgroundColor = 'hsl(var(--primary))';
+        timelineBar.style.opacity = '0.3';
+        timelineRef.current.style.position = 'relative';
+        timelineRef.current.prepend(timelineBar);
+      }
+      
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: "top 70%",
+          end: "bottom 70%",
+          scrub: true,
+        }
+      });
+
+      tl.to(timelineBar, {
+        height: '100%',
+        duration: 1,
+        ease: 'none'
+      });
+
+      texts.forEach((text) => {
+        gsap.fromTo(text as HTMLElement, 
+          { opacity: 0, y: 20 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 0.8,
+            ease: 'power2.out',
+            scrollTrigger: {
+              trigger: text as HTMLElement,
+              start: "top 85%",
+              toggleActions: "play none none none"
+            }
+          }
+        );
+      });
+
+    }, containerRef);
+    
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section id="learn" className="py-12 sm:py-24 bg-gradient-to-br from-zinc-900 to-black">
+    <section id="learn" className="py-12 sm:py-24 bg-gradient-to-br from-zinc-900 to-black" ref={containerRef}>
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-4xl uppercase font-bold tracking-tight text-white sm:text-5xl font-headline">
@@ -24,10 +89,10 @@ export default function WhatYouWillLearn() {
         <div className="max-w-2xl mx-auto">
             <Card className="border-primary/20 bg-zinc-900/50">
                 <CardContent className="p-6">
-                    <ul className="space-y-4">
+                    <ul className="space-y-4" ref={timelineRef}>
                         {learningPoints.map((point, index) => (
-                            <li key={index} className="flex items-start gap-4">
-                                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                            <li key={index} className="flex items-start gap-4 timeline-text">
+                                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1 z-10" />
                                 <span className="text-lg font-light font-headline text-foreground/90">
                                     {point}
                                 </span>
