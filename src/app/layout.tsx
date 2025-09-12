@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import Preloader from '@/components/preloader';
+import SmoothScroll from '@/components/smooth-scroll';
 
 export const metadata: Metadata = {
   title: 'Manual do Delivery Campeão',
@@ -24,6 +25,7 @@ export default function RootLayout({
         <Preloader />
         {children}
         <Toaster />
+        <SmoothScroll />
       </body>
     </html>
   );
