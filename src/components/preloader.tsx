@@ -34,7 +34,7 @@ export default function Preloader() {
         isHidden ? 'hidden' : ''
       }`}
     >
-      <p className="text-4xl sm:text-5xl text-white font-headline font-bold preloader-text">
+      <p className="text-4xl sm:text-5xl text-white font-headline font-bold preloader-text uppercase">
         A <span className="text-primary">virada de chave</span>
         <br />
         para o seu delivery.
@@ -42,5 +42,3 @@ export default function Preloader() {
     </div>
   );
 }
-
-    
