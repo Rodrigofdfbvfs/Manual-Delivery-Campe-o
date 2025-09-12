@@ -8,7 +8,7 @@ export default function Hero() {
     <section id="home" className="relative py-20 sm:py-32 flex items-center justify-center text-center overflow-hidden bg-gradient-to-br from-zinc-900 to-black">
       <div className="container mx-auto px-4 text-center z-20 relative">
         <Image 
-          src="https://i.imgur.com/gB1J82Z.png"
+          src="https://i.ibb.co/Kp9yR1GW/LOGOMANUAL.png"
           alt="Manual do Delivery Campeão Logo"
           width={300}
           height={100}
