@@ -7,7 +7,7 @@ export default function Quote() {
             "Ensino apenas o que funciona na prática e gera resultados reais para deliverys"
           </p>
           <footer className="mt-2 text-sm font-bold text-primary-foreground/90 uppercase font-headline">
-            - Vikto
+            - Viktor Duarte
           </footer>
         </blockquote>
       </div>
