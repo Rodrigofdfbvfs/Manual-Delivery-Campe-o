@@ -1,5 +1,4 @@
 import About from '@/components/landing/about';
-import AdCopyGenerator from '@/components/landing/ad-copy-generator';
 import Faq from '@/components/landing/faq';
 import Footer from '@/components/landing/footer';
 import Guarantee from '@/components/landing/guarantee';
@@ -22,7 +21,6 @@ export default function Home() {
         <Quote />
         <Stats />
         <Offer />
-        <AdCopyGenerator />
         <Faq />
       </main>
       <Footer />
