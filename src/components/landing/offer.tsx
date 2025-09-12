@@ -22,7 +22,7 @@ export default function Offer() {
               <CardHeader className="pt-10">
                 <p className="text-base font-bold uppercase tracking-wide text-primary-foreground/90">Parcelado</p>
                 <div className="flex items-baseline justify-center gap-x-2">
-                  <span className="text-2xl font-bold tracking-tight font-headline">2x de R$23,50</span>
+                  <span className="text-2xl font-bold tracking-tight font-headline">3x de R$16,00</span>
                 </div>
                 <CardDescription className="text-primary-foreground/80">sem juros no cartão</CardDescription>
               </CardHeader>
