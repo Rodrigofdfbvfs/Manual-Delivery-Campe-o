@@ -314,5 +314,5 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;
-  border: 1px solid #ffffff50;
+  border: 1px solid hsl(var(--primary));
 }
