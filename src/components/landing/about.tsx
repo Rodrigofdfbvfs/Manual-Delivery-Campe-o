@@ -17,7 +17,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
             <div className="flex-shrink-0">
               <Image
-                src="https://picsum.photos/seed/mentor/300/300"
+                src="https://i.ibb.co/KzDLS211/508387808-17891637729253534-3587474769988530518-n.jpg"
                 alt="Foto de Vikto, seu mentor"
                 width={300}
                 height={300}
