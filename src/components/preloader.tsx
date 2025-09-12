@@ -7,7 +7,7 @@ export default function Preloader() {
   const [isRemoved, setIsRemoved] = useState(false);
 
   useEffect(() => {
-    const delay = 4000; // 4 seconds
+    const delay = 3000; // 3 seconds
 
     const hideTimer = setTimeout(() => {
       setIsHidden(true);
@@ -42,3 +42,5 @@ export default function Preloader() {
     </div>
   );
 }
+
+    
