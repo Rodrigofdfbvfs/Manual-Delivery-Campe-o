@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, Lock, ShieldCheck, Zap } from "lucide-react";
 import CountdownTimer from "./countdown-timer";
+import Link from "next/link";
 
 const includedFeatures = [
     'Aulas gravadas, do básico ao avançado',
@@ -38,8 +39,10 @@ export default function Offer() {
                       </li>
                     ))}
                 </ul>
-                <Button size="lg" className="shiny-cta-button w-full !text-xl">
+                <Button size="lg" asChild className="shiny-cta-button w-full !text-xl">
+                  <Link href="https://kiwify.app/oGKJ0NS" target="_blank">
                     QUERO GARANTIR MINHA VAGA
+                  </Link>
                 </Button>
               </CardContent>
             </Card>
