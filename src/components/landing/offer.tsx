@@ -17,37 +17,13 @@ export default function Offer() {
           <span className="text-primary">Oferta especial</span> por tempo limitado
         </h2>
 
-        <div className="mt-12 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-            <Card className="border-2 border-primary shadow-2xl shadow-primary/20 relative bg-primary text-primary-foreground">
+        <div className="mt-12 max-w-md mx-auto">
+            <Card className="border-2 border-primary shadow-2xl shadow-primary/20 relative bg-black text-card-foreground">
               <CardHeader className="pt-10">
-                <p className="text-base font-bold uppercase tracking-wide text-primary-foreground/90">Parcelado</p>
-                <div className="flex items-baseline justify-center gap-x-2">
-                  <span className="text-2xl font-bold tracking-tight font-headline">3x de R$16,00</span>
-                </div>
-                <CardDescription className="text-primary-foreground/80">sem juros no cartão</CardDescription>
-              </CardHeader>
-              <CardContent className="flex flex-col gap-6">
-                <ul role="list" className="space-y-3 text-left font-light font-headline text-primary-foreground/90">
-                    {includedFeatures.map((feature) => (
-                      <li key={feature} className="flex items-center gap-3">
-                        <Check className="h-5 w-5 flex-shrink-0 text-primary-foreground" aria-hidden="true" />
-                        {feature}
-                      </li>
-                    ))}
-                </ul>
-                <Button size="lg" className="shiny-cta-button w-full">
-                    QUERO GARANTIR MINHA VAGA
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-black text-card-foreground border border-border">
-              <CardHeader className="pt-10">
-                <p className="text-base font-bold uppercase tracking-wide text-foreground/90">À Vista</p>
+                <p className="text-base font-bold uppercase tracking-wide text-foreground/90">Pagamento Único</p>
                 <div className="flex items-baseline justify-center gap-x-2">
                   <span className="text-4xl font-bold tracking-tight font-headline text-primary">R$47,90</span>
                 </div>
-                <CardDescription>pagamento único</CardDescription>
               </CardHeader>
               <CardContent className="flex flex-col gap-6">
                 <ul role="list" className="space-y-3 text-left font-light font-headline text-foreground">
@@ -59,7 +35,7 @@ export default function Offer() {
                     ))}
                 </ul>
                 <Button size="lg" className="shiny-cta-button w-full">
-                    QUERO COMPRAR A VISTA
+                    QUERO GARANTIR MINHA VAGA
                 </Button>
               </CardContent>
             </Card>
