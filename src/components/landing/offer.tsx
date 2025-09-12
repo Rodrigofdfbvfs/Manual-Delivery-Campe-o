@@ -26,7 +26,7 @@ export default function Offer() {
               <CardHeader className="pt-10">
                 <p className="text-base font-bold uppercase tracking-wide text-foreground/90">Pagamento Único</p>
                 <div className="flex items-baseline justify-center gap-x-2">
-                  <span className="text-5xl font-bold tracking-tight font-headline text-primary sm:text-6xl">R$47,90</span>
+                  <span className="text-6xl font-bold tracking-tight font-headline text-primary sm:text-7xl">R$47,90</span>
                 </div>
               </CardHeader>
               <CardContent className="flex flex-col gap-6">
@@ -38,7 +38,7 @@ export default function Offer() {
                       </li>
                     ))}
                 </ul>
-                <Button size="lg" className="shiny-cta-button w-full">
+                <Button size="lg" className="shiny-cta-button w-full !text-xl">
                     QUERO GARANTIR MINHA VAGA
                 </Button>
               </CardContent>
