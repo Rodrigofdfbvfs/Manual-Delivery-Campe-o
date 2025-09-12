@@ -80,7 +80,7 @@
   --shiny-cta-bg: #000000;
   --shiny-cta-bg-subtle: #1a1818;
   --shiny-cta-fg: #ffffff;
-  --shiny-cta-highlight: #FFF200;
+  --shiny-cta-highlight: hsl(var(--primary));
   --shiny-cta-highlight-subtle: white;
 }
 
@@ -216,7 +216,6 @@
   --gradient-percent: 20%;
   --gradient-angle-offset: 95deg;
   --gradient-shine: var(--shiny-cta-highlight-subtle);
-  --shiny-cta-highlight: hsl(var(--primary));
 }
 
 .shiny-cta-button:hover span::before {
