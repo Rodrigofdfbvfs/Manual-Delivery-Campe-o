@@ -7,6 +7,9 @@ export default function Hero() {
   return (
     <section className="relative py-20 sm:py-32 flex items-center justify-center text-center overflow-hidden bg-gradient-to-br from-zinc-900 to-black">
       <div className="container mx-auto px-4 text-center z-20 relative">
+        <div className="inline-block bg-primary/10 text-primary font-bold py-2 px-4 rounded-full border border-primary mb-4">
+          Transforme o seu delivery em uma máquina de vendas
+        </div>
         <h1 className="text-5xl font-extrabold tracking-tight text-primary sm:text-7xl lg:text-8xl font-headline">
           <span className="text-white">MANUAL DO</span><br />DELIVERY CAMPEÃO
         </h1>
