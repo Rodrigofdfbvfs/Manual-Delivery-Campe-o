@@ -31,9 +31,9 @@ export default function Offer() {
                 </div>
               </CardHeader>
               <CardContent className="flex flex-col gap-6">
-                <ul role="list" className="space-y-3 text-left font-light font-headline text-foreground">
+                <ul role="list" className="space-y-3 text-left font-light font-headline text-foreground divide-y divide-primary/20">
                     {includedFeatures.map((feature) => (
-                      <li key={feature} className="flex items-center gap-3">
+                      <li key={feature} className="flex items-center gap-3 pt-3 first:pt-0">
                         <Check className="h-5 w-5 flex-shrink-0 text-primary" aria-hidden="true" />
                         {feature}
                       </li>
