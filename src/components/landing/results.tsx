@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { Card, CardContent } from '@/components/ui/card';
 
 const resultsImages = [
   { src: "https://i.ibb.co/1tbFNssN/Capturar.png", alt: "Resultado 1", width: 450, height: 600 },
@@ -23,19 +22,15 @@ export default function Results() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 max-w-5xl mx-auto">
           {resultsImages.map((image, index) => (
-            <div key={index} className="p-1">
-              <Card className="bg-zinc-900/50 border-primary/20 overflow-hidden">
-                <CardContent className="p-0">
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    width={image.width}
-                    height={image.height}
-                    className="aspect-[3/4] w-full h-full object-contain"
-                    data-ai-hint="screenshot results"
-                  />
-                </CardContent>
-              </Card>
+            <div key={index} className="overflow-hidden rounded-lg">
+              <Image
+                src={image.src}
+                alt={image.alt}
+                width={image.width}
+                height={image.height}
+                className="w-full h-auto object-cover"
+                data-ai-hint="screenshot results"
+              />
             </div>
           ))}
         </div>
