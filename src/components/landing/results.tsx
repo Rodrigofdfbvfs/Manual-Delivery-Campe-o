@@ -1,11 +1,4 @@
 import Image from 'next/image';
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 import { Card, CardContent } from '@/components/ui/card';
 
 const resultsImages = [
@@ -28,37 +21,23 @@ export default function Results() {
             Veja o que nossos alunos estão alcançando com o método.
           </p>
         </div>
-        <div className="max-w-xs sm:max-w-xl md:max-w-2xl lg:max-w-4xl mx-auto">
-          <Carousel
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-            className="w-full"
-          >
-            <CarouselContent>
-              {resultsImages.map((image, index) => (
-                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                  <div className="p-1">
-                    <Card className="bg-zinc-900/50 border-primary/20">
-                      <CardContent className="flex aspect-square items-center justify-center p-2">
-                        <Image
-                          src={image.src}
-                          alt={image.alt}
-                          width={image.width}
-                          height={image.height}
-                          className="rounded-lg object-contain"
-                          data-ai-hint="screenshot results"
-                        />
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious className="hidden sm:flex" />
-            <CarouselNext className="hidden sm:flex" />
-          </Carousel>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 max-w-5xl mx-auto">
+          {resultsImages.map((image, index) => (
+            <div key={index} className="p-1">
+              <Card className="bg-zinc-900/50 border-primary/20 overflow-hidden">
+                <CardContent className="p-0">
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    width={image.width}
+                    height={image.height}
+                    className="aspect-[3/4] w-full h-full object-cover"
+                    data-ai-hint="screenshot results"
+                  />
+                </CardContent>
+              </Card>
+            </div>
+          ))}
         </div>
       </div>
     </section>
