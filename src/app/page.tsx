@@ -5,6 +5,7 @@ import Guarantee from '@/components/landing/guarantee';
 import Hero from '@/components/landing/hero';
 import Offer from '@/components/landing/offer';
 import Quote from '@/components/landing/quote';
+import Results from '@/components/landing/results';
 import Stats from '@/components/landing/stats';
 import Testimonials from '@/components/landing/testimonials';
 import Transformation from '@/components/landing/transformation';
@@ -24,6 +25,7 @@ export default function Home() {
         <Quote />
         <Stats />
         <Testimonials />
+        <Results />
         <Offer />
         <Faq />
       </main>
