@@ -14,7 +14,7 @@ export default function Results() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl uppercase font-bold tracking-tight text-white sm:text-5xl font-headline">
-            Resultados que falam por si
+            Resultados que <span className="text-primary">falam por si</span>
           </h2>
           <p className="mt-4 text-lg font-light text-foreground/80 font-headline max-w-3xl mx-auto">
             Veja o que nossos alunos e clientes estão alcançando com o método.
