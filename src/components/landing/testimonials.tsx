@@ -4,7 +4,7 @@ export default function Testimonials() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
             <h2 className="text-4xl uppercase font-bold tracking-tight text-foreground sm:text-5xl font-headline">
-                O que nossos <span className="text-primary">alunos dizem</span>
+                O que nossos <span className="text-primary">Clientes dizem</span>
             </h2>
             <p className="mt-4 text-lg font-light text-foreground/80 font-headline">
                 Veja os resultados de quem já aplicou o método.
