@@ -6,6 +6,7 @@ import Hero from '@/components/landing/hero';
 import Offer from '@/components/landing/offer';
 import Quote from '@/components/landing/quote';
 import Stats from '@/components/landing/stats';
+import Testimonials from '@/components/landing/testimonials';
 import Transformation from '@/components/landing/transformation';
 import Vsl from '@/components/landing/vsl';
 import WhatYouWillLearn from '@/components/landing/what-you-will-learn';
@@ -22,6 +23,7 @@ export default function Home() {
         <About />
         <Quote />
         <Stats />
+        <Testimonials />
         <Offer />
         <Faq />
       </main>
