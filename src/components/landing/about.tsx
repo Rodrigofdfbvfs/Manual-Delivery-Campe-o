@@ -7,7 +7,7 @@ export default function About() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl uppercase font-bold tracking-tight text-white sm:text-5xl font-headline">
-              Conheça o <span className="text-primary">Viktor Duarte</span>
+              Conheça o <span className="text-primary">VICTOR</span>
             </h2>
             <p className="mt-4 text-xl font-semibold leading-8 text-foreground/80 font-headline max-w-3xl mx-auto">
               Especialista em Tráfego Pago para delivery com resultados comprovados
