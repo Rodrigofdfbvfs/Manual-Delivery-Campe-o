@@ -31,7 +31,7 @@ export default function Results() {
                     alt={image.alt}
                     width={image.width}
                     height={image.height}
-                    className="aspect-[3/4] w-full h-full object-cover"
+                    className="aspect-[3/4] w-full h-full object-contain"
                     data-ai-hint="screenshot results"
                   />
                 </CardContent>
