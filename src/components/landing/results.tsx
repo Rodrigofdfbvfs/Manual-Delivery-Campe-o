@@ -17,7 +17,7 @@ export default function Results() {
             Resultados que falam por si
           </h2>
           <p className="mt-4 text-lg font-light text-foreground/80 font-headline max-w-3xl mx-auto">
-            Veja o que nossos alunos estão alcançando com o método.
+            Veja o que nossos alunos e clientes estão alcançando com o método.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 max-w-5xl mx-auto">
