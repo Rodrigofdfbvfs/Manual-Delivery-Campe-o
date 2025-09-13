@@ -26,14 +26,15 @@ export default function Offer() {
             <Card className="border-2 border-primary shadow-2xl shadow-primary/20 relative bg-black text-card-foreground">
               <CardHeader className="pt-10">
                 <p className="text-base font-bold uppercase tracking-wide text-foreground/90">Pagamento Único</p>
-                <div className="flex items-baseline justify-center gap-x-2">
+                <div className="flex flex-col items-center justify-center gap-x-2">
+                  <span className="text-2xl font-semibold line-through text-muted-foreground">R$197,90</span>
                   <span className="text-6xl font-bold tracking-tight font-headline text-primary sm:text-7xl">R$47,90</span>
                 </div>
               </CardHeader>
               <CardContent className="flex flex-col gap-6">
-                <ul role="list" className="space-y-3 text-left font-light font-headline text-foreground divide-y divide-primary/20">
-                    {includedFeatures.map((feature) => (
-                      <li key={feature} className="flex items-center gap-3 pt-3 first:pt-0">
+                <ul role="list" className="space-y-3 text-left font-light font-headline text-foreground">
+                    {includedFeatures.map((feature, index) => (
+                      <li key={feature} className={`flex items-center gap-3 pt-3 ${index > 0 ? 'border-t border-primary/20' : ''}`}>
                         <Check className="h-5 w-5 flex-shrink-0 text-primary" aria-hidden="true" />
                         {feature}
                       </li>
