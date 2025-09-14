@@ -21,6 +21,10 @@ const faqItems = [
   {
     question: "Vou ter suporte durante o curso?",
     answer: "Sim! Você terá 30 dias de suporte direto para tirar suas dúvidas sobre o conteúdo e implementação das estratégias."
+  },
+  {
+    question: "Preciso ter conhecimento prévio em anúncios para fazer o curso?",
+    answer: "Não! O curso foi desenhado para atender desde o completo iniciante, que nunca criou um anúncio, até gestores de tráfego que buscam se especializar no nicho de delivery e escalar seus resultados."
   }
 ]
 
